@@ -12,7 +12,9 @@
   "author": "Domagoj",
   "license": "MIT",
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "express-graphql": "0.9.0",
+    "cors": "2.8.5"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

@@ -15,32 +15,32 @@
 7 silly mapToRegistry uri https://registry.npmjs.org/Thenable
 8 verbose request uri https://registry.npmjs.org/Thenable
 9 verbose request no auth needed
-10 info attempt registry request try #1 at 1:52:16 PM
-11 verbose request id f7b18ae7f7cfe635
+10 info attempt registry request try #1 at 1:55:04 PM
+11 verbose request id 99627900767fa93f
 12 http request GET https://registry.npmjs.org/Thenable
 13 http 404 https://registry.npmjs.org/Thenable
-14 verbose headers { date: 'Mon, 19 Aug 2019 11:52:17 GMT',
+14 verbose headers { date: 'Mon, 19 Aug 2019 11:55:04 GMT',
 14 verbose headers   'content-type': 'application/json',
 14 verbose headers   'content-length': '21',
 14 verbose headers   connection: 'keep-alive',
 14 verbose headers   'set-cookie':
-14 verbose headers    [ '__cfduid=d9b49642b4585dc5fac327f33557a1e771566215536; expires=Tue, 18-Aug-20 11:52:16 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+14 verbose headers    [ '__cfduid=d89daa92228f5f0c9d99f00bb640939ae1566215704; expires=Tue, 18-Aug-20 11:55:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
 14 verbose headers   'cf-cache-status': 'MISS',
 14 verbose headers   'cache-control': 'max-age=300',
-14 verbose headers   'cf-ray': '508beba0d9af90f1-ZAG',
+14 verbose headers   'cf-ray': '508befb81b6190d9-ZAG',
 14 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 14 verbose headers   vary: 'accept-encoding, accept',
 14 verbose headers   server: 'cloudflare' }
 15 silly get cb [ 404,
-15 silly get   { date: 'Mon, 19 Aug 2019 11:52:17 GMT',
+15 silly get   { date: 'Mon, 19 Aug 2019 11:55:04 GMT',
 15 silly get     'content-type': 'application/json',
 15 silly get     'content-length': '21',
 15 silly get     connection: 'keep-alive',
 15 silly get     'set-cookie':
-15 silly get      [ '__cfduid=d9b49642b4585dc5fac327f33557a1e771566215536; expires=Tue, 18-Aug-20 11:52:16 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+15 silly get      [ '__cfduid=d89daa92228f5f0c9d99f00bb640939ae1566215704; expires=Tue, 18-Aug-20 11:55:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
 15 silly get     'cf-cache-status': 'MISS',
 15 silly get     'cache-control': 'max-age=300',
-15 silly get     'cf-ray': '508beba0d9af90f1-ZAG',
+15 silly get     'cf-ray': '508befb81b6190d9-ZAG',
 15 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 15 silly get     vary: 'accept-encoding, accept',
 15 silly get     server: 'cloudflare' } ]
