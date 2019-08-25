@@ -16,16 +16,33 @@ const LAUNCHES_QUERY = gql`
 `
 
 export class Launches extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             isFirstRender: true,
+             totalLaunches: null
+        }
+    }
+
+    setTotalLaunches = totalLaunches => {
+        if (this.state.isFirstRender){
+            this.setState({totalLaunches, isFirstRender: false})
+        }
+      }
+    
     render() {
         return (
             <div>
                 <h1 className="display-4 my-3">Launches</h1>
                 <MissionKey />
-                <Query query={LAUNCHES_QUERY}>
+                {this.state.totalLaunches && <h3>Total launches: {this.state.totalLaunches}</h3>}
+                <Query query={LAUNCHES_QUERY} onCompleted={data => this.setTotalLaunches(data.launches.length)} >
                     {
                         ({loading, error, data}) => {
                             if(loading) return <h4>Loading...</h4>
                             if(error) console.log(error)
+                            
 
                             return <Fragment>
                                 {
